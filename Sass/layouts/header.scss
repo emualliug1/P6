@@ -1,0 +1,16 @@
+.projet__header{
+    @include flex_box;
+    height: $height-header;
+    justify-content: space-between;
+    background-color: map-get($couleur, bg_header);
+    font-family: $police_global-type;
+    box-shadow: $contour_header-ombre;
+    position: fixed;
+    top: $zero;
+    left: $zero;
+    width: $width-header;
+    z-index: 1;
+    &__logo {
+        @include flex_box;
+    }
+}

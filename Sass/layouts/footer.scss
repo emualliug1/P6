@@ -1,0 +1,20 @@
+.projet__footer{
+    @include flex_box;
+    justify-content: space-around;
+    background-color: map-get($couleur, bg_header);
+    font-family: $police_global-type;
+    box-shadow: $contour_header-ombre;
+}
+
+.projet__footer__div{
+    &__ul{
+        @include flex_box($bloc_position: column);    
+    }
+    &__reseaux{
+        @include flex-box;
+        &__li{
+           margin-right: $margin_right-footer; 
+        }    
+    }   
+}
+

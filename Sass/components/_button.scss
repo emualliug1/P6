@@ -1,0 +1,42 @@
+.carousel__next,.carousel__prev{
+    position:absolute;
+    width:40px;
+    height:40px;
+    background:#fff url(/img/next.png) 50% no-repeat;
+    background-size:20px 20px;border-radius:50%;
+    top:50%;
+    margin-top:-20px;
+    right:1px;
+    box-shadow:0 15px 35px #3232321a,0 5px 15px #0000001a;
+    cursor:pointer;
+    transition:transform .3s,opacity .3s
+}
+
+.carousel__next:hover,.carousel__prev:hover{
+    transform:scale(1.2)
+}
+
+.carousel__prev{
+    background-image:url(/img/back.png);
+    right:auto;
+    left:1px;
+}
+
+.carousel__next--hidden,.carousel__prev--hidden{
+    opacity:0
+}
+.carousel__pagination__button{
+    background-color:#fff;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    display:inline-block;
+    margin:0 3px;
+    box-shadow:0 2px 5px #3232321a;
+    transition:transform .3s;
+    cursor:pointer
+}
+
+.carousel__pagination__button--active,.carousel__pagination__button:hover{
+    transform:scale(1.4)
+}

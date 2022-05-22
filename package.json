@@ -1,0 +1,19 @@
+{
+  "name": "JustStreamIt",
+  "version": "1.0.0",
+  "description": "P6",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "GT",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "autoprefixer": "^10.4.5",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0"
+  }
+}

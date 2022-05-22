@@ -1,0 +1,8 @@
+.projet__header__menu__ul{
+    @include flex_box;
+    padding-right: $padding_right-nav;
+    padding-top: $padding_top-nav;
+    &__li {
+        margin-right: $margin_right-header;
+    }
+}

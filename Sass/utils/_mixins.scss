@@ -1,0 +1,10 @@
+@mixin formatage_police($police: $police_global-type, $police-taille:$police_header-taille, $police-couleur:map-get($couleur, bg)){
+  	font-family: $police;
+    font-size: $police-taille;
+    color: $police-couleur;
+}
+
+@mixin flex_box($bloc_position:row){
+    display:flex;
+    flex-direction:$bloc_position;
+}

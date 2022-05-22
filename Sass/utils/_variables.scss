@@ -1,0 +1,39 @@
+/* base.scss */
+
+$police_global-type: "calibri";
+$police_header-taille: 1.3em;
+
+/* header.scss */
+
+$zero: 0;
+$margin_right-header: 25px;
+$height-header: 60px;
+$width-header: 100%;
+$z-index-header: 999px;
+$padding_top-header:10px;
+
+/* nav.scss */
+
+$padding_right-nav: 300px;
+$padding_top-nav: 10px;
+
+
+/* index.scss */
+
+$marging_top-projetFilms: 5%;
+$marging_left-projetFilms: 10%;
+$marging_right-projetFilms: 10%; 
+$marging_bottom-projetFilms: 2%;
+$margin_left-h2: 10px;
+$padding-section: 1%; 
+$marging_bottom-section: 1%;
+$marging-section-img: 1%;
+$marging-section-article: 5%;
+$padding-section-article: 2%;
+$width_meilleurFilm-img: 40%;
+$height_meilleurFilm-img: 40%;
+
+
+/* footer.scss */
+
+$margin_right-footer: 10px;
