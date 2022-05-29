@@ -197,7 +197,6 @@ body {
 }
 .item__title {
   height: 60px;
-  position: center;
   font-size: 12px;
   margin-bottom: 3px;
   font-weight: 700;
