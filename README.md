@@ -8,7 +8,7 @@
 - Avoir les zones suivantes :
   - Zone 1 : Meilleur film - Un film qui a le score le plus élevé dans toutes les catégories avec un bouton de lecture, un bouton d'information et sa description.
   - Zone 2 : Meilleurs films notés - Films avec les meilleurs scores dans toutes les catégories qui contient 7 films à chaque rotation et des boutons d'une droite et d'une gauche pour naviguer dans les différents films.
-  - Zone 3: 3 catégories différentes - 7 films avec les meilleurs scores dans leur catégorie respective
+  - Zone 3 : 3 catégories différentes - 7 films avec les meilleurs scores dans leur catégorie respective
 - Créez fenêtre modale avec les informations suivantes :
   - Titre du film
   - Le genre complet
