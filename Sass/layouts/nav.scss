@@ -1,8 +1,65 @@
-.projet__header__menu__ul{
-    @include flex_box;
-    padding-right: $padding_right-nav;
-    padding-top: $padding_top-nav;
-    &__li {
-        margin-right: $margin_right-header;
-    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  margin-right: 50%;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.menu a {
+  float: left;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu__secondaire {
+  float: left;
+  overflow: hidden;
+}
+
+.menu__secondaire .menu__secondaire--button {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.menu a:hover, .menu__secondaire:hover .menu__secondaire--button {
+  background-color: #454f5a;
+}
+
+.menu__secondaire--link {
+  display: none;
+  position: absolute;
+  background-color: #24292f;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu__secondaire--link a {
+  font-size: 14px;
+  float: none;
+  color: #fff;
+  border:1px solid;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.menu__secondaire--link a:hover {
+  background-color: #454f5a;
+}
+
+.menu__secondaire:hover .menu__secondaire--link {
+  display: block;
 }

@@ -1,6 +1,6 @@
 /* base.scss */
 
-$police_global-type: "calibri";
+$police_global-type: "Raleway", Helvetica, Arial, sans-serif;
 $police_header-taille: 1.3em;
 
 /* header.scss */
@@ -9,7 +9,7 @@ $zero: 0;
 $margin_right-header: 25px;
 $height-header: 60px;
 $width-header: 100%;
-$z-index-header: 999px;
+$z-index-header: 999;
 $padding_top-header:10px;
 
 /* nav.scss */

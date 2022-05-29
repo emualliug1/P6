@@ -14,11 +14,17 @@
                 <img class="projet__header__logoImage" src="img/1.png" alt="logo image" />
                 <img class="projet__header__logoTexte" src="img/2.png" alt="logo texte" />
             </div>
-            <nav class="projet__header__menu">
-                <ul class="projet__header__menu__ul">
-                    <li class="projet__header__menu__ul__li"><a href="#"><b>A</b>ccueil</a></li>
-                    <li class="projet__header__menu__ul__li"><a href="#"><b>C</b>atégories</a></li>
-                </ul>
+            <nav class="menu">
+                <a href="#"><b>A</b>ccueil</a>
+                    <div class="menu__secondaire">
+                        <button class="menu__secondaire--button"><b>C</b>atégories</button>
+                            <div class="menu__secondaire--link">
+                                <a href="#ancre1"><b>F</b>ilms les mieux notés</a>
+                                <a href="#ancre2"><b>T</b>hrillers</a>
+                                <a href="#ancre3"><b>A</b>venture </a>
+                                <a href="#ancre4"><b>F</b>antasy</a>
+                            </div>
+                    </div>
             </nav>
         </header>
         <div class="container">
@@ -26,24 +32,19 @@
                 <div id ="modal__content">
                     <div id ="modal__image"></div>
                     <div id ="modal__description"></div>
-                    <button id="modal__fermer">"&times;"</button>
+                    <button id="modal__fermer">&times;</button>
                 </div>
             </div>
-            <h2>Meilleur film</h2>
-            <div id="meilleurFilm">
-            </div>
-            <h2>Films les mieux notés</h2>
-            <div id="carousel1">
-            </div>
-            <h2>Thrillers</h2>
-            <div id="carousel2">
-            </div>
-            <h2>Aventure</h2>
-            <div id="carousel3">
-            </div>
-            <h2>Fantasy</h2>
-            <div id="carousel4">
-            </div>
+            <h3 ><b>M</b>eilleur film</h3>
+            <div id="meilleurFilm"></div>
+            <h3 id="ancre1"><b>F</b>ilms les mieux notés</h3>
+            <div id="carousel1"></div>
+            <h3 id="ancre2"><b>T</b>hrillers</h3>
+            <div id="carousel2"></div>
+            <h3 id="ancre3"><b>A</b>venture</h3>
+            <div id="carousel3"></div>
+            <h3 id="ancre4"><b>F</b>antasy</h3>
+            <div id="carousel4"></div>
         </div>
         <footer class="projet__footer">
             <div class="projet__footer__div">

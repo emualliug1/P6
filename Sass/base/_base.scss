@@ -4,30 +4,26 @@ a{
     padding-bottom: 5px;
 }
 
-h2{
-    @include formatage_police($police-couleur:map-get($couleur, p));
-    margin-top:60px;
-    font-size:25px;
-    color:#fff;
-    font-weight:700;
-    margin-bottom:15px;
-    padding: 15px;
+h3{
+    font-family: Calibri,sans-serif;
+    font-size:30px;
+    color:#24292f;
+    font-weight:500;
+    padding-left:10px;
+    margin: 0;
 }
 
 ul{
     list-style-type: none;
 }
-
-body,html{
-    margin:0;
-    padding:0;
-    min-height:100%;
-    overflow-x:hidden;
-    background-color: map-get($couleur, bg)
+.container{
+    margin-top: 70px;
 }
 
-body{
-    font-family:sans-serif;
-    background:linear-gradient(45deg,#000000,#ffffff) 50% no-repeat;
-    line-height:1.4
-    }
+body{;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background:linear-gradient(45deg,#f2f2f2,#d9d9d9) 50% no-repeat;
+}
+

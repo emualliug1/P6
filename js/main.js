@@ -19,13 +19,13 @@ function creerDiv (nomClasse){
     return div
 }
 
-const enregistrerPromesse = async function(url) {
-    let promesse = await fetchUrl(url)
-    data = [];
-    promesse.results.forEach(film => {
-        data.push(film)
-    })
-}
+    const enregistrerPromesse = async function(url) {
+        let promesse = await fetchUrl(url)
+        data = [];
+        promesse.results.forEach(film => {
+            data.push(film)
+        })
+    }
 
 window.onload = async function () {
     await enregistrerPromesse(urls.meilleurFilm)
@@ -75,8 +75,8 @@ const creerElementMeilleurFilm = async function(nomBaliseHtml) {
         meilleurFilmButtonRed.setAttribute('class','meilleurFilm__button--red')
         let meilleurFilmButtonGreen = document.createElement('button')
         meilleurFilmButtonGreen.setAttribute('class','meilleurFilm__button--green')
-        meilleurFilmButtonGreen.innerHTML="Plus d'infos"
-        meilleurFilmButtonRed.innerHTML="Lancer video"
+        meilleurFilmButtonGreen.innerHTML="<b>P</b>lus D'infos"
+        meilleurFilmButtonRed.innerHTML="<b>L</b>ancer Vidéo"
         document.getElementById(nomBaliseHtml).appendChild(meilleurFilmItem)
         meilleurFilmItem.appendChild(meilleurFilmItemImage)
         meilleurFilmItemImage.appendChild(meilleurFilmImage)
