@@ -27,4 +27,4 @@
 API Film - [OCMovies-API-EN-FR](https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR)
   1. Se rendre sur le liens de L'API et suivez les instructions pour la lancer.
   2. Clonez : `https://github.com/emualliug1/P6` sur un terminal.
-  3. Lancez index.html:
+  3. Lancez index.html
